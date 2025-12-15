@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Result System</title>
+</head>
+<body>
+
+  <h2>Student Result System</h2>
+
+  <form id="resultForm">
+    <label>
+      Student Name:
+      <input type="text" id="name" required>
+    </label>
+    <br><br>
+
+    <label>Science: <input type="number" id="science" min="0" max="100" required></label><br>
+    <label>Social: <input type="number" id="social" min="0" max="100" required></label><br>
+    <label>Math: <input type="number" id="math" min="0" max="100" required></label><br>
+    <label>Nepali: <input type="number" id="nepali" min="0" max="100" required></label><br>
+    <label>English: <input type="number" id="english" min="0" max="100" required></label><br><br>
+
+    <button type="submit">Calculate Result</button>
+  </form>
+
+  <hr>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
